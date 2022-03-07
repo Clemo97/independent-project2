@@ -1,0 +1,22 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #DAF7A6;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 36px;
+    padding-top: 20px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+#year-input{
+    border-radius: 15px;
+    width: 60px;
+    height: 20px;
+    box-shadow: 2px 2px #D3A6F7;
+}
