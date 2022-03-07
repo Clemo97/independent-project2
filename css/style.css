@@ -35,3 +35,7 @@ h1{
     font-size: ;
     box-shadow: 2px 2px #09ff00;
 }
+
+#result{
+    text-align: center;
+}
