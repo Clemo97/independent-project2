@@ -1,6 +1,6 @@
 body{
     font-family: 'Quicksand', sans-serif;
-    background-color: #DAF7A6;
+    background-color: #D3A6F7;
     font-size: 18px;
 }
 
@@ -38,4 +38,15 @@ h1{
 
 #result{
     text-align: center;
+}
+
+.content{
+    background-color: #DAF7A6;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px;
+    border-radius: 0.5%;
 }
