@@ -14,9 +14,24 @@ h1{
     margin: auto;
 }
 
-#year-input{
+/*Birthday Form*/
+/*The combined styles of the date of birth input fields.*/
+#year-input, #month-input, #day-input{
     border-radius: 15px;
     width: 60px;
     height: 20px;
     box-shadow: 2px 2px #D3A6F7;
+}
+
+/*id for button to submit birthday and gender data*/
+#get-name{
+    border-radius: 15px;
+    color: ;
+    background-color: #e500fa;
+    text-align: ;
+    border: ;
+    width: ;
+    height: ;
+    font-size: ;
+    box-shadow: 2px 2px #09ff00;
 }
