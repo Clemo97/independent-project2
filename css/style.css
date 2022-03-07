@@ -50,3 +50,15 @@ h1{
     box-shadow: 2px 2px;
     border-radius: 0.5%;
 }
+
+.clear{
+    border-radius: 15px;
+    color: #000000;
+    background-color: #FCD116;
+    text-align: solid;
+    border: solid 2px #000000;
+    width: 100px;
+    height: 25px;
+    font-size: 14px;
+    box-shadow: 2px 2px #000000;
+}
