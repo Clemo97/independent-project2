@@ -1,8 +1,8 @@
 # Akan name generator
 #### Simple web app that generates an Akan name based on the date of birth and gender by determining the day one was born, 14/8/2019
-![alt text](images/result.jpg)
+![alt text](images/result.png)
 
-![alt text](images/app.jpg)
+![alt text](images/app.png)
 
 ## Author
 Clement Lumumba
