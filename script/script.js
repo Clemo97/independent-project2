@@ -90,3 +90,15 @@ function getAkanName() {
     "Ama",
   ];
 
+  //generating and index value to select items on arrays
+  let index;
+  // fix formula bug
+  if (dayOfWeekNumber == 0) {
+    index = 6;
+  } else {
+    index = dayOfWeekNumber - 1;
+  }
+
+  console.log(index);
+
+  
