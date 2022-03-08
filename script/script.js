@@ -44,4 +44,9 @@ function getAkanName() {
             return true;
         }
     }
-    
+
+    //validation variables
+    let monthValid = monthValidator();
+    let dayValid = dayValidator();
+
+    //
