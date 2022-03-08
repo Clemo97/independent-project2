@@ -1,22 +1,24 @@
-body{
+body {
     font-family: 'Quicksand', sans-serif;
     background-color: #D3A6F7;
     font-size: 18px;
 }
 
-h1{
+h1 {
     font-size: 36px;
     padding-top: 20px;
 }
 
-.container{
+.container {
     width: 80%;
     margin: auto;
 }
 
 /*Birthday Form*/
 /*The combined styles of the date of birth input fields.*/
-#year-input, #month-input, #day-input{
+#year-input,
+#month-input,
+#day-input {
     border-radius: 15px;
     width: 60px;
     height: 20px;
@@ -24,7 +26,7 @@ h1{
 }
 
 /*id for button to submit birthday and gender data*/
-#get-name{
+#get-name {
     border-radius: 15px;
     color: ;
     background-color: #e500fa;
@@ -37,11 +39,12 @@ h1{
 }
 
 /*align the akan name center*/
-#result{
+#result {
     text-align: center;
 }
+
 /*style the whole page*/
-.content{
+.content {
     background-color: #DAF7A6;
     margin-top: 10px;
     margin-bottom: auto;
@@ -53,7 +56,7 @@ h1{
 }
 
 /*Button to clear form after date of birth and gender submission.*/
-.clear{
+.clear {
     border-radius: 15px;
     color: #000000;
     background-color: #FCD116;

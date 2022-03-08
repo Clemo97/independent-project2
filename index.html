@@ -1,56 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>Akan Name</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="content">
-        <div class="container">
-            <h1>Akan Name Generator</h1>
-            <p>This web application takes your birthday details and gives you your respective
-                Akan Name, which is a Ghanian naming tradition for children. Each day of the week corresponds to an Akan name.
-            </p>
-            <p>Fill out the form below to find out your Akan Name.</p>
+      <div class="container">
+        <h1>Akan Name Generator</h1>
+        <p>
+          This web application takes your birthday details and gives you your
+          respective Akan Name, which is a Ghanian naming tradition for
+          children. Each day of the week corresponds to an Akan name.
+        </p>
+        <p>Fill out the form below to find out your Akan Name.</p>
 
-            <form class="formData" onsubmit="return getAkanName()">
-                <label for="year-of-birth">
-                    Year:
-                    <input id="year-input" type="number" name="year-of-birth" min="1900" max="2022" placeholder="YYYY" value="" required>
-                </label>
-                <label for="month-of-birth">
-                    Month:
-                    <input id="month-input" type="number" name="month-of-birth" placeholder="MM" min="1" max="12" value="" required>
-                </label>
-                <label for="day-of-birth">
-                    Day:
-                    <input id="day-input" type="number" name="day-of-birth" min="1" max="31" placeholder="DD" value="" required>
-                </label>
-                <br>
-                <label for="gender">
-                    <p>Select your gender: </p>
-                    Male
-                    <input id="male-input" type="radio" name="gender" value="male" required>
-                    Female
-                    <input id="female-input" type="radio" name="gender" value="female" required>
-                </label>
-                <br><br>
-                <input id="get-name" type="submit" name="" value="Generate name">
-                <br><br>
-            </form>
-            <form onsubmit="return clearInput()">
-                <input class="clear" type="submit" value="Clear input">
-            </form>
+        <form class="formData" onsubmit="return getAkanName()">
+          <label for="year-of-birth">
+            Year:
+            <input
+              id="year-input"
+              type="number"
+              name="year-of-birth"
+              min="1900"
+              max="2022"
+              placeholder="YYYY"
+              value=""
+              required
+            />
+          </label>
+          <label for="month-of-birth">
+            Month:
+            <input
+              id="month-input"
+              type="number"
+              name="month-of-birth"
+              placeholder="MM"
+              min="1"
+              max="12"
+              value=""
+              required
+            />
+          </label>
+          <label for="day-of-birth">
+            Day:
+            <input
+              id="day-input"
+              type="number"
+              name="day-of-birth"
+              min="1"
+              max="31"
+              placeholder="DD"
+              value=""
+              required
+            />
+          </label>
+          <br />
+          <label for="gender">
+            <p>Select your gender:</p>
+            Male
+            <input
+              id="male-input"
+              type="radio"
+              name="gender"
+              value="male"
+              required
+            />
+            Female
+            <input
+              id="female-input"
+              type="radio"
+              name="gender"
+              value="female"
+              required
+            />
+          </label>
+          <br /><br />
+          <input id="get-name" type="submit" name="" value="Generate name" />
+          <br /><br />
+        </form>
+        <form onsubmit="return clearInput()">
+          <input class="clear" type="submit" value="Clear input" />
+        </form>
 
-            <h4 id="display-name"><strong>Your Akan Name is displayed here.</strong></h4>
-            <p id="result"></p>
-            
-        </div>
+        <h4 id="display-name">
+          <strong>Your Akan Name is displayed here.</strong>
+        </h4>
+        <p id="result"></p>
+      </div>
     </div>
 
     <script src="script/script.js"></script>
-</body>
+  </body>
 </html>
