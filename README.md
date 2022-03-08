@@ -39,7 +39,7 @@ Here is a run through of how to set up the application
 
 ## Support and contact details
 You can provide feedback or raise any issues/ bugs through the following means:
-* lumumbaclement@gmail.com@gmail.com
+* lumumbaclement@gmail.com
 
 ## Github Pages link
 You can view the live application by following this link https://clemo97.github.io/independent-project2/
