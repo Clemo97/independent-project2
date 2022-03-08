@@ -79,3 +79,14 @@ function getAkanName() {
         "Kofi",
         "Kwame",
     ];
+
+    let femaleAkanNames = [
+    "Akosua",
+    "Adwoa",
+    "Abenaa",
+    "Akua",
+    "Yaa",
+    "Afua",
+    "Ama",
+  ];
+
