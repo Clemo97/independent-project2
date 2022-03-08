@@ -18,4 +18,11 @@ function getAkanName() {
     console.log(myGenderValue);
 
     //Validate the month variable to be between 1 and 12 values
+    function monthValidator(){
+        if (monthOfBirth < 1 || monthOfBirth > 12) {
+            return false;
+        } else {
+            return true;
+        }
+    }
     
