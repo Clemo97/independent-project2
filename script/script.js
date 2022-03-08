@@ -58,3 +58,24 @@ function getAkanName() {
             (26 * (monthOfBirth + 1)) / 10 +  // ((26*(MM+1)/10))
             dayOfBirth) % 7 // DD ) mod 7
     );
+
+     //creating arrays of Akan names for males & females and days of the week
+    let daysOfWeek = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+    ];
+
+    let maleAkanNames = [
+        "Kwasi",
+        "Kwadwo",
+        "Kwabena",
+        "Kwaku",
+        "Yaw",
+        "Kofi",
+        "Kwame",
+    ];
